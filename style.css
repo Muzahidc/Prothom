@@ -1,0 +1,88 @@
+body {
+  clear: both;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.Heading  {
+  height: 250;
+  width: cover;
+}
+
+.Heading img{
+       height: 100px;
+       width: 100;
+       float:left;
+
+}
+
+h1 {
+  color: green;
+  align-items: center;
+  padding: 10px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-family: cursive, sans-serif;
+}
+ h2{
+  color: #271915;
+  text-align: center;
+  padding-top: -10px;
+}
+
+.topnav a{
+  float: right;
+  color: green;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  padding-right: 15px;
+background-color: black;
+opacity: .5;
+}
+
+.jambotron {
+  width: cover;
+  height: 600px;
+  background-image: url("img.jpg/Hav-fnt.JPG");
+  repeat: no-repeat;
+  opacity: 0.8;
+  margin-left: 20px;
+}
+ p {
+   margin-top: 100px;
+position: relative;
+font-size: 40px;
+color: #fff;
+text-align: center;
+}
+.row img {
+  width: cover;
+  height: 300px;
+  border: 5px solid #94cccc;
+  margin-right:250px;
+  margin-left: -32px;
+}
+
+.footer {
+   background-color: #F9B4A3;
+   height: auto;
+   width: cover;
+}
+.footer li {
+    font-family: fantasy;
+    font-weight: 400;
+}
+
+.footer .btn {
+  float: right;
+}
+
+@media (max-width: 500px) {
+  .row {
+    margin-top: 0;
+  }
+  .img-responsive {
+    margin-bottom: 20px;
+  }
+}
